@@ -12,7 +12,8 @@ class ShowCard extends Component {
             <img src= {Movies.Poster} alt = "" ></img>
             <h3> {Movies.Title} < /h3>
             <p> {Movies.Year} < /p>
-            <p > {Movies.plot} < /p>
+            <p> {Movies.Plot} < /p>
+
           </div>
           );
         })
