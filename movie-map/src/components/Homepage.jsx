@@ -7,7 +7,8 @@ class Homepage extends Component {
     return (
     <div className = "App" >
       <header className = "App-header" >
-      <NavLink to="/Movies" className = 'home-button'> more Movies < /NavLink> </header>
+      <NavLink to="/Movies" className = 'home-button'> more Movies < /NavLink>
+      </header>
     </div>
     );
   }
